@@ -1,4 +1,4 @@
-
+<!--
 <div class="blog-header">
   <h1 class="blog-title">{{motor.name}}</h1>
   <p class="lead blog-description">{{motor.description}}</p>
@@ -61,4 +61,71 @@
       <dd>{{motor.sizeAndWeight.weight}}</dd>
     </dl>
   </li>
-</ul>
+</ul>-->
+
+
+<div class="col-lg-12">
+                <h2 class="page-header">{{motor.name}} </h2>
+            </div>
+           
+            <div class="col-md-6 car-images">
+               <img ng-src="{{motor.images[0]}}" width="500px;">
+            </div>
+              <div class="col-md-1">
+              
+                   <span ng-repeat="img in motor.images" style="list-style:none; padding: 0">
+                  <img ng-src="{{img}}" ng-click="setImage(img)" width="100px;">
+                  </span>
+   
+            </div>
+           <div class="col-md-5">
+               
+                <div class="col-md-4">
+                    <strong>ID</strong>
+                    <p>{{motor.id}} </p>
+                </div>
+                <div class="col-md-4">
+                    <strong>Nombre:</strong>
+                    <p>{{motor.name}}</p>
+                </div>
+                 <div class="col-md-4">
+                    <strong>Tipo de motor:</strong>
+                    <p>{{motor.engine.type}}</p>
+                </div>
+                 <div class="col-md-4">
+                    <strong>Marcha:</strong>
+                    <p>{{motor.engine.gears}} </p>
+                </div>
+                
+                 <div class="col-md-4">
+                    <strong>Arranque:</strong>
+                    <p>{{motor.arranque}}</p>
+                </div>
+                 <div class="col-md-4">
+                    <strong>Fabricante:</strong>
+                    <p>{{motor.manufacter.name}}</p>
+                </div>
+                 <div class="col-md-4">
+                    <strong>Cilindraje:</strong>
+                    <p>{{motor.engine.cilindro}}</p>
+                </div>
+               
+                 <div class="col-md-4">
+                    <strong>Peso:</strong>
+                    <p>{{motor.sizeAndWeight.weight}}</p>
+                </div>
+                 <div class="col-md-4">
+                    <strong>Trasmision:</strong>
+                    <p>{{motor.engine.transmission}}</p>
+                </div>
+                  <div class="col-md-4">
+                    <strong>Tamaño:</strong>
+                   <p ng-repeat="dim in motor.sizeAndWeight.dimensions">{{dim}}</p>
+                </div>
+                
+            </div>
+            <div class="col-md-6">
+            <strong>Descripcion</strong>
+                <p>{{motor.description}}
+                </p>
+                </div>
