@@ -2,44 +2,44 @@
 
     {
         "model": 2015, 
-        "id": "randy-motor", 
-        "imageUrl": "img/motor/1.png", 
-        "name": "Randy Motor", 
-        "snippet": "Velocidad ha un nivel que solo Randy puede llegar"
+        "id": "gsr7850", 
+        "imageUrl": "img/motor/gsr750-2.jpg", 
+        "name": "GSR750", 
+        "snippet": "Una Atractiva Fusión de Imagen y comportamiento"
     },
     {
         "model": 2014, 
-        "id": "junior-flash", 
-        "imageUrl": "img/motor/2.png", 
-        "name": "Junior Flash", 
+        "id": "gsx-s1000", 
+        "imageUrl": "img/motor/gsx-s1000-2.jpg", 
+        "name": "GSX-S1000", 
         "snippet": "Llega a lugares donde nadie mas lo ha hecho"
     },
     {
         "model": 2015, 
-        "id": "dariel-cr5", 
-        "imageUrl": "img/motor/3.png", 
-        "name": "Dariel Cr5", 
-        "snippet": "Donde la mujeres mojan"
+        "id": "gsx-r600", 
+        "imageUrl": "img/motor/gsx-r600-1.jpg", 
+        "name": "GSX-R600", 
+        "snippet": "Las Máximas Prestaciones En Su Categoría"
     },
      {
-        "model": 2015, 
-        "id": "dariel-cr5", 
-        "imageUrl": "img/motor/3.png", 
-        "name": "Dariel Cr5", 
-        "snippet": "Donde la mujeres mojan"
+        "model": 2016, 
+        "id": "rm-z250", 
+        "imageUrl": "img/motor/rm-z250-1.jpg", 
+        "name": "RM-Z250", 
+        "snippet": "Prestaciones ganadoras con inyección electrónica"
     },
     {
-        "model": 2015, 
-        "id": "dariel-cr5", 
-        "imageUrl": "img/motor/3.png", 
-        "name": "Dariel Cr5", 
-        "snippet": "Donde la mujeres mojan"
+        "model": 2016, 
+        "id": "intruder-c800", 
+        "imageUrl": "img/motor/intruder-c800-1.jpg", 
+        "name": "Intruder C800", 
+        "snippet": "Hazte a ti mismo"
     },
      {
-        "model": 2015, 
-        "id": "dariel-cr5", 
-        "imageUrl": "img/motor/3.png", 
-        "name": "Dariel Cr5", 
-        "snippet": "Donde la mujeres mojan"
+        "model": 2016, 
+        "id": "v-strom-650-abs", 
+        "imageUrl": "img/motor/v-strom-650-abs-1.jpg", 
+        "name": "V-Strom 650 ABS", 
+        "snippet": "El Momento de las Auténticas Aventuras"
     }    
 ]

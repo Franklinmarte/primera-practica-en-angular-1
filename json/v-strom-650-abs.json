@@ -1,0 +1,36 @@
+{
+    "manufacter": {
+        "name": "Suzuki", 
+        "country": "Japon"
+    }, 
+    "engine": {
+        "gears": "6", 
+        "transmission": "Manual", 
+        "type": "Diesel",
+        "cilindro": "v6"
+    }, 
+    "description": "El espíritu de aventura te lleva a nuevos destinos. A nuevos paisajes, sonidos y destinos. La V-Strom 650 ABS está diseñada para llevarte allí de la forma más divertida, excitante y cómoda. La V-Strom 650 ABS. El Momento de las Auténticas Aventuras.",  
+    "id": "v-strom-650-abs",
+    "arranque": "electrico", 
+    "images": [
+        "img/motor/v-strom-650-abs-1.jpg",
+        "img/motor/v-strom-650-abs-2.jpg",
+        "img/motor/v-strom-650-abs-3.jpg",
+        "img/motor/v-strom-650-abs-4.jpg"
+
+
+        
+   ], 
+    "name": "V-Strom 650 ABS", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "1783.9 mm (w)", 
+            "1595.8 mm (h)", 
+            "5222.4 mm (l)"
+        ], 
+        "weight": "3110.0 Kg"
+    }, 
+    "space": {
+        "volume": "1130L"
+    }
+}

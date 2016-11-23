@@ -1,0 +1,31 @@
+{
+    "manufacter": {
+        "name": "Suzuki", 
+        "country": "Japon"
+    }, 
+    "engine": {
+        "gears": "6", 
+        "transmission": "Manual", 
+        "type": "Diesel",
+        "cilindro": "v6"
+    }, 
+    "description": "Prestaciones ganadoras en competición a punto para ti. Un motor de 249 cc con inyección electrónica y un impresionante par motor a bajo y medio régimen y una excitante potencia a altas revoluciones. Una parte ciclo revisada con todo lo aprendido en las carreras. Una imagen agresiva, esbelta y atractiva. La RM-Z250, la perfecta moto de competición para los pilotos de motocross de todo el mundo.",  
+    "id": "rm-z250",
+    "arranque": "electrico", 
+    "images": [
+        "img/motor/rm-z250-1.jpg"
+        
+   ], 
+    "name": "RM-Z250", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "1783.9 mm (w)", 
+            "1595.8 mm (h)", 
+            "5222.4 mm (l)"
+        ], 
+        "weight": "3110.0 Kg"
+    }, 
+    "space": {
+        "volume": "1130L"
+    }
+}

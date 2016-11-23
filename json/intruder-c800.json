@@ -1,0 +1,34 @@
+{
+    "manufacter": {
+        "name": "Suzuki", 
+        "country": "Japon"
+    }, 
+    "engine": {
+        "gears": "6", 
+        "transmission": "Manual", 
+        "type": "Diesel",
+        "cilindro": "v6"
+    }, 
+    "description": "Buenas y graves vibraciones para los amantes del custom. Estilo clásico “low and long”. La cuidada pintura contrastando los brillantes cromados. Un motor lleno de par y de potencia utilizable. Sentado en su generoso y acogedor asiento, con una perfecta posición de pilotaje que acrecienta tu confort. Con la INTRUDER C800 te haces a ti mismo.",  
+    "id": "intruder-c800",
+    "arranque": "electrico", 
+    "images": [
+        "img/motor/intruder-c800-1.jpg",
+        "img/motor/intruder-c800-2.jpg",
+        "img/motor/intruder-c800-3.png"
+
+        
+   ], 
+    "name": "Intruder C800", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "1783.9 mm (w)", 
+            "1595.8 mm (h)", 
+            "5222.4 mm (l)"
+        ], 
+        "weight": "3110.0 Kg"
+    }, 
+    "space": {
+        "volume": "1130L"
+    }
+}

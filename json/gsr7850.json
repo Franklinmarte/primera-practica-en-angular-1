@@ -1,0 +1,31 @@
+{
+    "manufacter": {
+        "name": "Suzuki", 
+        "country": "Japon"
+    }, 
+    "engine": {
+        "gears": "6", 
+        "transmission": "Manual", 
+        "type": "Diesel",
+        "cilindro": "v8"
+    }, 
+    "description": "Una mezcla de modernismo y futurismo. Con un potente motor de 749 cc e inyección electrónica. Una atractiva fusión de tecnología, estilo y prestaciones. Una motocicleta diseñada para la diversión y la emoción. Plena de cualidades para los más independientes y orgullosos. La libertad te llama. Tu GSR750 te está esperando.",  
+    "id": "gsr750",
+    "arranque": "electrico", 
+    "images": [
+        "img/motor/gsr750-1.jpg",
+        "img/motor/gsr750-2.jpg"
+   ], 
+    "name": "Junior Flash", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "1783.9 mm (w)", 
+            "1595.8 mm (h)", 
+            "5222.4 mm (l)"
+        ], 
+        "weight": "3110.0 Kg"
+    }, 
+    "space": {
+        "volume": "1130L"
+    }
+}
