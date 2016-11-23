@@ -1,0 +1,24 @@
+[
+
+    {
+        "model": 2015, 
+        "id": "randy-motor", 
+        "imageUrl": "img/motor/1.png", 
+        "name": "Randy Motor", 
+        "snippet": "Velocidad ha un nivel que solo Randy puede llegar"
+    },
+    {
+        "model": 2014, 
+        "id": "junior-flash", 
+        "imageUrl": "img/motor/2.png", 
+        "name": "Junior Flash", 
+        "snippet": "Llega a lugares donde nadie mas lo ha hecho"
+    },
+    {
+        "model": 2015, 
+        "id": "dariel-cr5", 
+        "imageUrl": "img/motor/3.png", 
+        "name": "Dariel Cr5", 
+        "snippet": "Donde la mujeres mojan"
+    }
+]

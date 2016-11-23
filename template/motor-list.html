@@ -1,0 +1,53 @@
+
+<!--  <div class="row">
+    
+    <div class="col-sm-7 blog-main">
+   
+
+      <ul class="motors">
+        <li ng-repeat="motor in motors | filter:query | orderBy:orderProp"
+            class="thumbnail motor-listing">
+          <a href="#/motors/{{motor.id}}" class="thumb"><img ng-src="{{motor.imageUrl}}"></a>
+          <a href="#/motors/{{motor.id}}">{{motor.name}}</a>
+          <p></p>
+        </li>
+      </ul>
+
+    </div>
+    <div class="col-sm-5 blog-sidebar">
+  
+
+      <form class="form-horizontal" role="form">
+
+        <div class="form-group">
+          <label for="name" class="col-sm-2 control-label">Filtro</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="query">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inputPassword3" class="col-sm-2 control-label">Organizar por:</label>
+          <div class="col-sm-10">
+            <select class="form-control" ng-model="orderProp">
+              <option value="name">Alphabetical</option>
+              <option value="age">Newest</option>
+            </select>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+-->
+
+
+          <div ng-repeat="motor in motors | filter:query | orderBy:orderProp" class="col-lg-4 col-sm-6 text-center">
+                <a href="#/motors/{{motor.id}}" class="thumb"><img ng-src="{{motor.imageUrl}}"></a>
+                 <a href="#/motors/{{motor.id}}">
+                    <h3>{{motor.name}}</h3>
+                   </a>
+         
+                <p>{{motor.snippet}}</p>
+            </div>
+           
